@@ -1,37 +1,14 @@
-# JupyterLite Demo
-
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
-
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
-
-## ✨ Try it in your browser ✨
-
-➡️ **https://jupyterlite.github.io/demo**
-
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
-
-## Requirements
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
-
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
-
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
+# MEGA Climate Adaptation workshop
 
 
+You can launch the scripts in the JupyterLite notebook by clicking here:
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://ele-b.github.io/MEGA-ClimateAdaptation)
+
+This repository contains all scripts and data needed for the Climate Adaptation workshop of the course MEGA, organised within the MSc Architecture - Building Technology Track at TU Delft.
+
+The **content** folder contains the following scripts:
+- **analyse_EPWs.ipynb**, to read and compare different weather files for the location of Rotterdam/Amsterdam
+- **Exercise_Mega_2.ipynb**, to calculate the Universal Thermal Climate Index (UTCI) and the Loss of Performance due to overheating
+- **flood_vulnerability.ipynb**, to calculate flood resilience of building archetypes under a selected hazard scenario
+
+Before starting, if you have already accessed Jupyter during the workshop, make sure the Jupiter notebook is updated. For this do right-click on the name of the file in Jupiter and delete it. It will then uploaded instanteneously. If the Kernel stops to respond, you can also restart it by pressing the arrow icon on the top.
