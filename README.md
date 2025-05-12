@@ -1,4 +1,4 @@
-# MEGA Climate Adaptation workshop
+# MEGA Resilience Workshop
 
 
 You can launch the scripts in the JupyterLite notebook by clicking here:
